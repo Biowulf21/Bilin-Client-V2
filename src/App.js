@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { NavBar } from "./components/navbar/navbar.tsx";
 import { About } from "./screens/guest/About/index.tsx";
 import { FAQ } from "./screens/guest/FAQ/index.tsx";
+import { Footer } from "./screens/guest/Footer/footer.tsx";
 import { Get_Involved } from "./screens/guest/Get-Involved/index.tsx";
 import { Home } from "./screens/guest/Home/index.tsx";
 import { Knowledge_Hub } from "./screens/guest/Knowledge-Hub/index.tsx";
@@ -18,6 +19,7 @@ function App() {
         <Route path="/knowledge-hub" element={<Knowledge_Hub />} />
         <Route path="/faq" element={<FAQ />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
