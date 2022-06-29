@@ -1,4 +1,6 @@
 import React from "react";
+import { Container, Row } from "react-bootstrap";
+import { FeatureCard } from "./sub-components/Card/index.tsx";
 
 
 
@@ -11,45 +13,14 @@ const Home = () => {
                 <h2 className="h2s text-center">How You Can Help</h2>
             <p className="ps text-center pb-4">Get involved and be part of our cause.</p>
 
-            <div className="d-flex justify-content-center">
-                <div className="row gy-4 justify-content-center">
-                    <div className="col-auto d-flex">
-                        <div className="card" id="feature">
-                            <div className="card-body">
-                                <h5 className="h5s card-title my-3"><b>Locate</b></h5>
-                                <p className="ps card-text">Find NGOs and community pantries near you.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-auto d-flex">
-                        <div className="card" id="feature">
-                            <div className="card-body">
-                                <h5 className="h5s card-title my-3"><b>Donate</b></h5>
-                                <p className="ps card-text">Donate your surplus food to NGOs and nearby community pantries.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-auto d-flex">
-                        <div className="card" id="feature">
-                            <div className="card-body">
-                                <h5 className="h5s card-title my-3"><b>Volunteer</b></h5>
-                                <p className="ps card-text">Volunteer on events organized by NGOs like feeding programs.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-auto d-flex">
-                        <div className="card" id="feature">
-                            <div className="card-body">
-                                <h5 className="h5s card-title my-3"><b>Initiate</b></h5>
-                                <p className="ps card-text">Co-host a feeding program with NGOs or set up a community
-                                    pantry.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <Container>
+                <Row>
+                     <FeatureCard title={'Locate'} text={"Find NGOs and community pantries near you."}></FeatureCard>
+                    <FeatureCard title={'Donate'} text={"Donate your surplus food to NGOs and nearby community pantries."}></FeatureCard>
+                    <FeatureCard title={"Volunteer"} text={"Volunteer on events organized by NGOs like feeding programs."}></FeatureCard>
+                    <FeatureCard title={"Initiate"} text={"Co-host a feeding program with NGOs or set up a community pantry.    "}></FeatureCard>
+                </Row>
+                </Container>       
        </div>
         </section>
 
