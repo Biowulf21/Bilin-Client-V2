@@ -13,7 +13,7 @@ const Home = () => {
                 <h2 className="h2s text-center">How You Can Help</h2>
             <p className="ps text-center pb-4">Get involved and be part of our cause.</p>
 
-            <Container style={{margin:20}}>
+            <Container className="d-flex justify-content-center" style={{margin:20}}>
                 <Row className="mx-auto justify-content-center">
                         <Col className="">
                                 <FeatureCard title={'Locate'} text={"Find NGOs and community pantries near you."}></FeatureCard>
