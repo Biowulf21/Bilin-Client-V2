@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import { FeatureCard } from "./sub-components/Card/index.tsx";
 
 
@@ -13,12 +13,20 @@ const Home = () => {
                 <h2 className="h2s text-center">How You Can Help</h2>
             <p className="ps text-center pb-4">Get involved and be part of our cause.</p>
 
-            <Container>
-                <Row>
-                     <FeatureCard title={'Locate'} text={"Find NGOs and community pantries near you."}></FeatureCard>
-                    <FeatureCard title={'Donate'} text={"Donate your surplus food to NGOs and nearby community pantries."}></FeatureCard>
-                    <FeatureCard title={"Volunteer"} text={"Volunteer on events organized by NGOs like feeding programs."}></FeatureCard>
-                    <FeatureCard title={"Initiate"} text={"Co-host a feeding program with NGOs or set up a community pantry.    "}></FeatureCard>
+            <Container style={{margin:20}}>
+                <Row className="mx-auto justify-content-center">
+                        <Col className="">
+                                <FeatureCard title={'Locate'} text={"Find NGOs and community pantries near you."}></FeatureCard>
+                        </Col>
+                        <Col className="">
+                                <FeatureCard title={'Donate'} text={"Donate your surplus food to NGOs and nearby community pantries."}></FeatureCard>
+                        </Col>
+                        <Col className="">
+                                <FeatureCard title={"Volunteer"} text={"Volunteer on events organized by NGOs like feeding programs."}></FeatureCard>
+                        </Col>
+                        <Col className="">
+                                <FeatureCard title={"Initiate"} text={"Co-host a feeding program with NGOs or set up a community pantry.    "}></FeatureCard>
+                        </Col>
                 </Row>
                 </Container>       
        </div>
