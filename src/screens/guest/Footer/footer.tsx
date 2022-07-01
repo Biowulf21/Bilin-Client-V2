@@ -8,8 +8,8 @@ const Footer = () => {
         <div className="container">
             <div className="d-lg-flex align-items-start justify-content-between">
                 <div className="col-lg-5">
-                    <h4 className="h4s text-color2 font-weight-bold">Bilin</h4>
-                    <p className="text-color2">Bilin is a platform that makes the donation process easier, allowing
+                    <h4 style={{color: "#FFF"}} className="h4s text-color2 font-weight-bold">Bilin</h4>
+                    <p style={{color: "#FFF"}} className="text-color2">Bilin is a platform that makes the donation process easier, allowing
                         forward-thinking people and businesses to connect with nonprofit organizations and community
                         pantries that need their help the most.</p>
                 </div>
@@ -29,8 +29,8 @@ const Footer = () => {
                     <div className="mx-3 d-flex flex-column">
                         <h5 ><b style={{color: "#FFF"}}>Useful Links</b></h5>
                         <a href="https://drive.google.com/file/d/14cL6wqYBMWJJgKwSUMRSVvFBTJRwQ2kU/view?usp=sharing" style={{color: "#FFF"}}>Donation Guidelines</a>
-                        <a href="/../src/terms_and_conditions.html" style={{color: "#FFF"}}>Terms & Conditions</a>
-                        <a href="/../src/privacy_policy.html" style={{color: "#FFF"}}>Privacy Policy</a>
+                        <a href="/terms-and-conditions" style={{color: "#FFF"}}>Terms & Conditions</a>
+                        <a href="/privacy-policy" style={{color: "#FFF"}}>Privacy Policy</a>
                     </div>
     
                     <div className="mx-3 d-flex flex-column d-none d-md-block">
@@ -47,7 +47,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="ps d-flex justify-content-between">
-                <p className="ps as text-color1">&copy; 2022 Bilin. All rights reserved.</p>
+                <p style={{color: "#FFF"}} className="ps as text-color1">&copy; 2022 Bilin. All rights reserved.</p>
                 <div>
                     <a style={{color: "#FFF"}} href="#">Back to Top <i className="bi bi-chevron-double-up"></i>
                     </a>

@@ -8,7 +8,7 @@ const NavBar = () =>{
         <div>
            <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
   <Container>
-  <Navbar.Brand href="/">Bilin - The Food Donation App</Navbar.Brand>
+  <Navbar.Brand className="" href="/">Bilin - The Food Donation App</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="m-auto">
@@ -20,7 +20,7 @@ const NavBar = () =>{
       
     </Nav>
     <Nav>
-<LoginBtn className="justify-content-end"></LoginBtn>      
+<LoginBtn className="row-sm-1 justify-content-end"></LoginBtn>      
     </Nav>
   </Navbar.Collapse>
   </Container>

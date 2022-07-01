@@ -7,6 +7,8 @@ import { Footer } from "./screens/guest/Footer/footer.tsx";
 import { Get_Involved } from "./screens/guest/Get-Involved/index.tsx";
 import { Home } from "./screens/guest/Home/index.tsx";
 import { Knowledge_Hub } from "./screens/guest/Knowledge-Hub/index.tsx";
+import { Terms_And_Conditions } from "./screens/guest/Terms-And-Conditions/index.tsx";
+import { Privacy_Policy } from "./screens/guest/Privacy-Policy/index.tsx";
 
 function App() {
   return (
@@ -18,6 +20,11 @@ function App() {
         <Route path="/about-us" element={<About />} />
         <Route path="/knowledge-hub" element={<Knowledge_Hub />} />
         <Route path="/faq" element={<FAQ />} />
+        <Route
+          path="/terms-and-conditions"
+          element={<Terms_And_Conditions />}
+        />
+        <Route path="/privacy-policy" element={<Privacy_Policy />} />
       </Routes>
       <Footer />
     </Router>

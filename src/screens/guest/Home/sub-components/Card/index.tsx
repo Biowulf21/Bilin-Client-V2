@@ -1,9 +1,8 @@
-import React from "react";
-
-
+import React from "react"
+import "./styles.css";
 const FeatureCard = (props) => {
     return(
-        <div className="col-auto d-flex">
+        <div>
                         <div className="card" id="feature">
                             <div className="card-body">
                                 <h5 className="h5s card-title my-3"><b>{props.title}</b></h5>
