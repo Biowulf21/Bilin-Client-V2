@@ -23,7 +23,6 @@ const DiscoverComponent = () => {
                                         </li>
                                         <li><hr className="dropdown-divider"/></li>
                                         <li className="nav-item" role="presentation">
-                                            <a className="nav-link pill-link text-color6" id="pills-bookmarked-tab" data-bs-toggle="pill" data-bs-target="#pills-bookmarked" role="tab" aria-controls="pills-bookmarked" aria-selected="false">Bookmarked</a>
                                         </li>
                                     </div>
                                 </ul>
@@ -45,7 +44,6 @@ const DiscoverComponent = () => {
                               <button className="nav-link pill-link rounded-pill mx-1"style={{backgroundColor: "#E5E7E7;" , color: "#5C5B5B;",  fontWeight: "500;"}} id="pills-cps-tab" data-bs-toggle="pill" data-bs-target="#pills-cps" type="button" role="tab" aria-controls="pills-cps" aria-selected="false">Community Pantries</button>
                             </li>
                             <li className="nav-item" role="presentation">
-                                <button className="nav-link pill-link rounded-pill mx-1" style={{backgroundColor: "#E5E7E7;" , color: "#5C5B5B;",  fontWeight: "500;"}} id="pills-bookmarked-tab" data-bs-toggle="pill" data-bs-target="#pills-bookmarked" type="button" role="tab" aria-controls="pills-bookmarked" aria-selected="false">Bookmarked</button>
                             </li>
                         </ul>
                     </div>
@@ -64,12 +62,6 @@ const DiscoverComponent = () => {
                         <div className="tab-pane fade" id="pills-cps" role="tabpanel" aria-labelledby="pills-cps-tab">
                             <div className="container text-center">
                                 <p>There are no community pantries added yet.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="tab-pane fade" id="pills-bookmarked" role="tabpanel" aria-labelledby="pills-bookmarked-tab">
-                            <div className="container text-center">
-                                <p>Looks like you haven't bookmarked anything yet.
                                 </p>
                             </div>
                         </div>
