@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './styles.css';
 
 const Home_Header = () => {
     return (
@@ -9,13 +10,13 @@ const Home_Header = () => {
                 <h1 className="h1s" >Get involved in solving food hunger</h1>
                 <p className="ps my-3">By empowering those who empower others, we at Bilin are
                     trying to spark the Filipino spirit of Bayanihan like never before.</p>
-                <button className="btns text-color2" style={{border: "0px", backgroundColor: "#F77F00;"}}
+                <button className="btns text-color2" style={{border: "10px", backgroundColor: "#F77F00;"}}
                     data-bs-target="#modal-partner" data-bs-toggle="modal">Partner With
                     Us</button>
                 <button className="btns text-color1" style={{border: "0px;",  backgroundColor: "#f8d9b5;"}}
                 data-bs-target="#modal-donor" data-bs-toggle="modal">Donate</button>
                 </div>
-                <img className="img-fluid w-50 d-none d-md-block" src="../../assets/images/donation.png" alt=""/>
+                <img className="img-fluid w-50 d-none d-md-block" src="assets/images/donation.png"  alt=""/>
             </div>
         </div>
     </section>);

@@ -6,6 +6,7 @@ const Home_Mission = () => {
         <div className="container pb-2 pb-lg-5">
             <div className="row">
                 <div className="col d-flex align-items-center justify-content-center">
+                <img src="assets/images/philmap.svg" alt="" style={{maxHeight: "600px;"}} className="img-fluid"/>
                 </div>
                 <div className="col-lg-1"></div>
                 <div className="col align-middle">
