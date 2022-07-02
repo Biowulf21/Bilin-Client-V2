@@ -1,4 +1,5 @@
 import React from 'react'
+import { GetInvolvedTabs } from './sub-components/Tabs/index.tsx';
 
 const DiscoverComponent = () => {
     return (
@@ -29,44 +30,8 @@ const DiscoverComponent = () => {
                             </div>
                         </div>
                     </div>
-        
-        
-                    
-                    <div className="d-none d-md-inline">
-                        <ul className="nav nav-pills mb-4 bg-color2" id="pills-tab" role="tablist">
-                            <li className="nav-item" role="presentation">
-                              <button className="nav-link pill-link active rounded-pill mx-1" style={{backgroundColor: "#E5E7E7;", color: "#5C5B5B;", fontWeight: "500;"}} id="pills-events-tab" data-bs-toggle="pill" data-bs-target="#pills-events" type="button" role="tab" aria-controls="pills-events" aria-selected="true">Upcoming Events</button>
-                            </li>
-                            <li className="nav-item" role="presentation">
-                              <button className="nav-link pill-link rounded-pill mx-1" style={{backgroundColor: "#E5E7E7;" , color: "#5C5B5B;",  fontWeight: "500;"}} id="pills-orgs-tab" data-bs-toggle="pill" data-bs-target="#pills-orgs" type="button" role="tab" aria-controls="pills-orgs" aria-selected="false">Organizations</button>
-                            </li>
-                            <li className="nav-item" role="presentation">
-                              <button className="nav-link pill-link rounded-pill mx-1"style={{backgroundColor: "#E5E7E7;" , color: "#5C5B5B;",  fontWeight: "500;"}} id="pills-cps-tab" data-bs-toggle="pill" data-bs-target="#pills-cps" type="button" role="tab" aria-controls="pills-cps" aria-selected="false">Community Pantries</button>
-                            </li>
-                            <li className="nav-item" role="presentation">
-                            </li>
-                        </ul>
-                    </div>
-    
-                    <div className="tab-content py-5" id="pills-tabContent">
-                        <div   className="tab-pane fade show active" id="pills-events" role="tabpanel" aria-labelledby="pills-events-tab">
-                            <div id="events-tab" className="container text-center">
-                            </div>
-                        </div>
-                        <div className="tab-pane fade" id="pills-orgs" role="tabpanel" aria-labelledby="pills-orgs-tab">
-                            <div className="container text-center">
-                                <p>There are no organizations added yet.
-                                </p>
-                            </div>
-                        </div>
-                        <div className="tab-pane fade" id="pills-cps" role="tabpanel" aria-labelledby="pills-cps-tab">
-                            <div className="container text-center">
-                                <p>There are no community pantries added yet.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
+                <GetInvolvedTabs></GetInvolvedTabs>
             </div>
         </section>
     );
